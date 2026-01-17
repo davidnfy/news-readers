@@ -1,40 +1,40 @@
-# News Reader Flutter Application
+# Aplikasi News Reader Flutter
 
-A Flutter news application using a public API for fetching news articles. This app demonstrates usage of Provider for state management, JSON serialization, theming, and networking with HTTP.
+Aplikasi berita Flutter menggunakan API publik untuk mengambil artikel berita. Aplikasi ini mendemonstrasikan penggunaan Provider untuk manajemen state, serialisasi JSON, theming, dan networking dengan HTTP.
 
-## Prerequisites
+## Prasyarat
 
-- Install [Flutter SDK](https://flutter.dev/docs/get-started/install) (version 3.8.1 or newer recommended)
-- An IDE such as [Android Studio](https://developer.android.com/studio), [Visual Studio Code](https://code.visualstudio.com/), or others with Flutter and Dart plugins installed
-- Set up your device or emulator for Android, iOS, web, or desktop as per Flutter platform setup guides
+- Install [Flutter SDK](https://flutter.dev/docs/get-started/install) (versi 3.8.1 atau lebih baru disarankan)
+- IDE seperti [Android Studio](https://developer.android.com/studio), [Visual Studio Code](https://code.visualstudio.com/), atau lainnya dengan plugin Flutter dan Dart terinstal
+- Siapkan perangkat atau emulator untuk Android, iOS, web, atau desktop sesuai panduan setup platform Flutter
 
-## Getting Started
+## Memulai
 
-1. Clone this repository or download the source code.
+1. Clone repository ini atau download source code.
 
-2. Navigate to the project directory in your terminal or command prompt.
+2. Arahkan ke direktori proyek di terminal atau command prompt.
 
-3. Install dependencies:
+3. Instal dependencies:
 
    ```sh
    flutter pub get
    ```
 
-4. Generate JSON serialization code (required for some data models):
+4. Generate kode serialisasi JSON (diperlukan untuk beberapa data models):
 
    ```sh
    flutter pub run build_runner build
    ```
 
-## Running the Application
+## Menjalankan Aplikasi
 
-To run the app on your connected device or emulator, use:
+Untuk menjalankan aplikasi pada perangkat atau emulator yang terhubung, gunakan:
 
 ```sh
 flutter run
 ```
 
-To run on a specific platform, specify the device or platform target, for example:
+Untuk menjalankan pada platform tertentu, tentukan target perangkat atau platform, misalnya:
 
 - Android:
 
@@ -54,7 +54,7 @@ To run on a specific platform, specify the device or platform target, for exampl
   flutter run -d chrome
   ```
 
-- Windows, macOS, or Linux:
+- Windows, macOS, atau Linux:
 
   ```sh
   flutter run -d windows
@@ -64,30 +64,30 @@ To run on a specific platform, specify the device or platform target, for exampl
 
 ## Testing
 
-To run unit and widget tests, execute:
+Untuk menjalankan unit dan widget tests, jalankan:
 
 ```sh
 flutter test
 ```
 
-## Project Structure
+## Struktur Proyek
 
-- `lib/main.dart`: Application entry point and app widget setup
-- `lib/presentation/`: UI screens, widgets, and state providers
-- `lib/data/`: Data sources and models for network calls
-- `lib/domain/`: Repository interfaces and implementations
-- `pubspec.yaml`: Project dependencies and configuration
+- `lib/main.dart`: Entry point aplikasi dan setup app widget
+- `lib/presentation/`: UI screens, widgets, dan state providers
+- `lib/data/`: Data sources dan models untuk network calls
+- `lib/domain/`: Repository interfaces dan implementations
+- `pubspec.yaml`: Project dependencies dan konfigurasi
 
-## Additional Notes
+## Catatan Tambahan
 
-- The app uses Provider package for state management.
-- News data is fetched from a public API via HTTP requests.
-- Theming supports light and dark modes.
+- Aplikasi menggunakan package Provider untuk manajemen state.
+- Data berita diambil dari API publik melalui HTTP requests.
+- Theming mendukung mode light dan dark.
 
-## Contributing
+## Kontribusi
 
-Feel free to fork and submit pull requests with improvements or bug fixes.
+Silakan fork dan submit pull requests dengan perbaikan atau bug fixes.
 
-## License
+## Lisensi
 
-This project is licensed under the MIT License.
+Proyek ini dilisensikan di bawah MIT License.
